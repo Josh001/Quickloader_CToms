@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF1C1B0D"
+    tools:context="osscom.ji.quickloader.About" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:background="#FFF1EA6B"
+        android:paddingLeft="40dp"
+        android:text="Quickload"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#D3FE1225"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FFF1EA6B"
+        android:padding="20dp"
+        android:text="QuickLoad is a property of C-Toms Solution C-Toms Solutions deal in technology espcially internet and is commited to making internet access available at a very reduced price to everyone."
+        android:textColor="#D3FE1225" />
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF1C1B0D"
+    android:orientation="vertical"
+    tools:context="osscom.ji.quickloader.About" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:background="#FFF1EA6B"
+        android:paddingLeft="40dp"
+        android:text="Quickload"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#D3FE1225"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFF1EA6B"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:text="Help"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#D3FE1225"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="1) Simply Click on the Subscribe button."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#D3FE1225" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="2) Then, fill in your PIN"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#D3FE1225" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="3) Fill in your account number if you want to pay through the bank."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#D3FE1225" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="4) Select the bundle plan you want."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#D3FE1225" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="5) Then click Subscribe button"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#D3FE1225" />
+    </LinearLayout>
+
+</LinearLayout>
